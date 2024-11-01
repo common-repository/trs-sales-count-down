@@ -1,0 +1,9 @@
+#style-wrapper{
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#style-wrapper img{
+    width: 27%;
+    margin-right: 100px;
+}

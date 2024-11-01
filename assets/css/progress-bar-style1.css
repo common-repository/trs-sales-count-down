@@ -1,0 +1,32 @@
+.progress-bar-wrapper .progress-bar {
+    border-radius: 60px;
+    overflow: hidden;
+    width: 100%;
+}
+.progress-bar-wrapper .progress-bar span {
+    display: block;
+}
+
+.progress-bar-wrapper .bar {
+    background: rgba(0, 0, 0, 0.075);
+}
+
+.progress-bar-wrapper .progress {
+    -webkit-animation: loader 8s ease infinite;
+    animation: loader 8s ease infinite;
+    background: #75b800;
+    color: #fff;
+    padding: 5px;
+    width: 50%;
+}
+
+.progress-bar-wrapper{
+    margin-top: 10px;
+}
+
+.progress-bar-wrapper p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('./fonts/Montserrat/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('./fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url('./fonts/Montserrat/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url('./fonts/Montserrat/Montserrat-Black.ttf');
+}
+
+.whiteblock-style-and-progress-bar-wrapper .countdown-item{
+    background-color: #1f1f1f;
+    border-radius: 18px;
+    margin: 0 -7px 0 10px;
+}
+
+.whiteblock-style-and-progress-bar-wrapper .trs-whiteblock-countdown{
+    padding: 20px 0;
+}
+
+.whiteblock-style-and-progress-bar-wrapper .main-wrapper{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.whiteblock-style-and-progress-bar-wrapper .countdown-item{
+    width: 90px;
+    height: 64px;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.whiteblock-style-and-progress-bar-wrapper .countdown-item .time{
+    font-family: Montserrat-Bold;
+    font-size: 28px;
+    color: #fbfbfb;
+    line-height: 1;
+}
+
+.whiteblock-style-and-progress-bar-wrapper .countdown-item .label{
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #fbfbfb;
+    line-height: 1;
+    text-transform: uppercase;
+}

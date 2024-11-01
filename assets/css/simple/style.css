@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+
+
+.trs-simple-count-down-and-progress-bar-wrapper ul.simple-countdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.trs-simple-count-down-and-progress-bar-wrapper ul.simple-countdown li {
+    display: inline-block;
+}
+
+.trs-simple-count-down-and-progress-bar-wrapper ul.simple-countdown li span {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 46px;
+}
+
+.trs-simple-count-down-and-progress-bar-wrapper ul.simple-countdown li.seperator {
+    font-size: 42px;
+    line-height: 46px;
+    vertical-align: top;
+}
+
+.trs-simple-count-down-and-progress-bar-wrapper ul.simple-countdown li p {
+    color: #a7abb1;
+    font-size: 14px;
+}
